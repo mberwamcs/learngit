@@ -1,0 +1,41 @@
+
+@media screen and (max-width: 426px) {
+    body{ padding: 2% 4%; width: ;}
+    header {width 100%; text-align: center; font-size: .8em}
+    h3 {width 100%; text-align: center; font-size: .9em}
+    #selection { margin: 2% 18%}
+    .btn {display: block; margin: 10%; width: 100%; text-align: center; font-size: 1.5em;}
+    #newdayM { display: none;}
+    #startday {display:none; margin-top: 0px; width: %; text-align: center; font-size: 1.5em; padding: ;}
+    label,input {width: %; font-size: em; padding: .5%;}
+    label{width: px; display: inline-block; text-align: center;}
+    input{width: %; display: block;margin: 2% auto; font-size: 1em;}
+    #edit { }
+    #date { } 
+    #newdaybtn {display:;}
+    
+    #endday {display: none;}
+    #paystub {display: none;} 
+        }
+
+/*@media screen and (min-width: 769px) {
+  .btn {display: ; margin: 2%; width: ; text-align: center; font-size: 2em;}
+}
+header {width 100%; text-align: center}
+/* Portrait and Landscape */
+
+   /* body{margin: } 
+    #selection {text-align: center;}
+    #startday {float: left; margin-right: ; margin-left: ;}
+    label{width: 90px; display: inline-block;}
+    input{margin: 3px;}
+    #endday {}
+    #endda, label{width: 150px; display: inline-block;}
+    #search {text-align: ;}
+    #selection {float: ;}
+    #newday {display: ;}
+    #startday {display: none;}
+    #endday {display: none;}
+    #paystub {display: none;} 
+    #errorM {display: none;} 
+    #date-infor {float: right;}*/

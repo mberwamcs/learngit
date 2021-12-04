@@ -1,0 +1,138 @@
+<!doctype html>
+<html lan ="en">
+<head><title>Delievery work</title>
+<link rel="stylesheet" href="delievery.css">
+</head>
+<body>
+
+<header> 
+    <h2>INDEPENDET DELIEVERY SERVICE /<br> SELF-EMPLOYER</h2>
+    <h3>Address: <span>This information will come from your account </span></h3>
+    <!--<h3>4007 SW 333rd ST Federal Way, WA 98023 <br>Phone: <span>(206) 460-3154 </span> Fax: <span> None </span> Email: <span> hmberwa1@gmail.com </span></h3> -->
+</header>
+<hr>
+	<form> 
+        <div id="selection">
+		<input type = "date" name ="date" placeholder = "Full Date">
+		<select name="activity" id="activity">
+		    <option value="empty">Select Activity</option>
+		    <option value="startd">Start a new day </option>
+            <option value="endd">End of the day </option>
+            <option value="paystub">Paystub</option>
+            <input type="button" value="GO" id="goahead">
+		</select> 
+		</div>
+		<p id="newday">Welcom this is a new day for you </p>
+		<br><br>
+		<div id="startday">
+            <p style="font-weight: bold; text-decoration: underline;">Biggining of the day</p>
+            <label for="" id="label">From: </label>
+            <input type = "text" name ="" placeholder = "City" size="8">
+            <input type = "text" name ="" placeholder = "State" size="8">
+            <br>
+            <label for="" id="label">ODM/miles: </label>
+            <input type = "text" name ="mfrom" placeholder = "start miles"  size="8" id="startmiles">
+            <br>
+            <label for="" id="label">Item name: </label>
+            <input type = "text" name ="" placeholder = " Ex: boxes" size="8">
+            <br>
+            <label for="" id="label">Total item: </label>
+            <input type = "text" name ="" placeholder = "Ex: 100" size="8" id="numItem">
+            <br>
+            <label for="" id="label">Price each: $</label>
+            <input type = "text" name ="" placeholder = "$" size="8" id="priceeach">
+            <br>
+            <p style="font-weight: bold; text-decoration: underline;">Gas expences</p>
+            <label for="" id="label">Gas: </label>
+            <input type = "text" name ="gas" placeholder = "galons" size="8"> <br>
+            <label for="" id="label">Gas price: $</label>
+            <input type = "text" name ="gas" placeholder = "$" size="8"> <br>
+            <label for="" id="label">Gas total: $</label>
+            <input type = "text" name ="gas" placeholder = "$" size="8">
+            <br>
+            
+            <br><br>
+            <div id="button">
+                <input type = "button" name ="Save" value="Save" id="saveBtn">
+                <span id="errorM">&nbsp</span>
+            </div>
+		</div>
+		<div id="endday">
+            <p style="font-weight: bold; text-decoration: underline;">End of the day</p>
+            <label for="" id="label">To: </label>
+            <input type = "text" name ="" placeholder = "City" size="8">
+            <input type = "text" name ="" placeholder = "State" size="8">
+            <br>
+            <label for="" id="label">End miles: </label>
+            <input type = "text" name ="mto" placeholder = "end miles" size="8" id="endmiles">
+            <br>
+            <label for="" id="label"># of item returned</label>
+            <input type = "text" name ="$from" placeholder = "Ex: 100" size="8">
+            <br>
+            <label for="" id="label">total price: $</label>
+            <input type = "text" name ="$from" placeholder = "$" size="8">
+            <br>
+            <label for="" id="label">Total miles: </label>
+            <input type = "text" name ="$from" size="8" disabled="true" id="totalmiles">
+            <br>
+            <label for="" id="label"> Total Gas: </label>
+            <input type = "text" name ="gas" placeholder = "galons" size="8"> 
+            <br>
+            <label for="" id="label">Gas total: $</label>
+            <input type = "text" name ="gas" placeholder = "$" size="8">
+            <br>
+            <label for="" id="label">Day Income: $</label>
+            <input type = "text" name ="gas" placeholder = "$" size="8" id="dayincome" disabled = true>
+            <br><br>
+            <label for="" id="label">Notes: </label>
+            <textarea name="" id="" cols="40" rows="5"></textarea>
+            <br><br>
+            <!--<div id="savebutton">
+                <input type = "button" name ="Save" value="Save" id="saveBtn">
+                <br><br><br>
+                <input type = "button" name ="search" id="search" value="Search">
+            </div>-->
+		</div>
+	</form>
+			
+<!--****************************** PAY STUB **************-->
+<div id="paystub">
+<div id="date-infor">
+   <p> Date :  <span>10/01/2021</span></p>
+</div>
+<div id="drv-infor">
+   <p>This information comes from your account </p>
+    <p> Driver Name: <span> ... </span> ID: <span> ... </span></p>
+</div>
+<div id="vih-infor">
+   <h4>Vehicle information:-</h4>
+    <p> Make: <span>  </span> Model: <span>  </span>Year: <span>  </span></p>
+    <p> Start ODM: <span> ... </span> End ODM: <span> ... </span> Miles Spent: <span> ... </span></p>
+</div>
+
+<div id="job-discp">
+   <h4>Work Description:</h4>
+    <h5>Delievering smoll and large boxes to local businesses and resident homes</h5>
+    <p> From : Town<span id="town"> </span> State <span id="state"> </span> <span > ***Put your home town if started from home </span></p>
+    <p> number of stops: <span> 75 </span> number iof item delieveried: <span> ... </span> Price per stop: $ <span> ...</span></p>
+    <p> Today's earning:  $ <span> ... </span></p>
+</div>
+
+<input type = "button" name ="date" value = "Print">
+<br><br>
+</div>
+<!-- 
+     <div id="selection">
+		<input type = "date" name ="date" placeholder = "Full Date">
+		<select name="car " value="Car" id="car">
+		    <option value="">Pick the car you used</option>
+		    <option value="">Dodge Journey </option>
+            <option value="">Dodge Sprinter </option>
+            <option value="">Dodge Ram-2500</option>
+		</select>
+		</div>
+-->
+		
+<script type="text/javascript" src="delievery.js"></script>
+</body>
+</html>
